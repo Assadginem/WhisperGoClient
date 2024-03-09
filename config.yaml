@@ -1,0 +1,9 @@
+# API Configuration
+apiKey: OPENAI-API-KEY
+
+# Request Configuration
+timeout: 100     # Timeout in seconds for each request
+maxRetries: 3   # Maximum number of retries in case of request failure
+
+# Openai model configuration
+model: whisper-1
