@@ -1,11 +1,15 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"io"
 	"log"
+	"net/http"
 	"os"
+	"strings"
 
 	tts "go-whisper-api/api/texttospeech"
 	"go-whisper-api/api/whisper"
